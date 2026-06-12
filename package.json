@@ -1,0 +1,32 @@
+{
+  "name": "env-honeypot",
+  "version": "1.0.0",
+  "description": "Generate a massive, convincing fake .env file to trap bot scrapers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "env",
+    "security",
+    "honeypot",
+    "fake",
+    "keys",
+    "cli",
+    "funny"
+  ],
+  "author": "Lakshan Muruganandam <lakshan@example.com>",
+  "license": "MIT",
+  "dependencies": {
+    "boxen": "^8.0.1",
+    "cli-spinners": "^3.4.0",
+    "commander": "^15.0.0",
+    "inquirer": "^14.0.2",
+    "log-update": "^8.0.0",
+    "picocolors": "^1.1.1"
+  },
+  "type": "module",
+  "bin": {
+    "env-honeypot": "./index.js"
+  }
+}
